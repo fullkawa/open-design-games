@@ -17,14 +17,16 @@ title: Water Walker - Open Design Games
 
 プレイヤーの読みと記憶力がタメされるゲームでもあります。
 
-『Water Walker』はこんなゲーム！
-![WaterWalkerプレイイメージ](img/water-walker-plaing.png "WaterWalkerプレイイメージ")
-① スタート地点まで舟を出す
-② 水面をよく見極めて… (他プレイヤーが水面パネルを配置します)
-③ ゴール地点の舟まで渡りきれば成功！
-④ しかし、いつも上手く行くとは限らない…！
+### 『Water Walker』はこんなゲーム！
 
-下記マニュアルにて、遊び方・詳細なルールを確認できます。
+![WaterWalkerプレイイメージ](img/water-walker-plaing.png "WaterWalkerプレイイメージ")
+
+① スタート地点まで舟を出す  
+② 水面をよく見極めて… (他プレイヤーが水面パネルを配置します)  
+③ ゴール地点の舟まで渡りきれば成功！  
+④ しかし、いつも上手く行くとは限らない…！  
+
+下記マニュアルにて、遊び方・詳細なルールを確認できます。  
 [WaterWalkerマニュアル](water_walker_manual.pdf)
 
 ### 製品情報
