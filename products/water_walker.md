@@ -40,3 +40,5 @@ tw:
 
 ゲームデザイン：[fullkawa](https://twitter.com/fullkawa)  
 イラスト、パネルデザイン：[謙治](https://twitter.com/im_kenji)  
+
+[Role&Roll Station](http://arclight.sakura.ne.jp/bgame/item/330000270000/)にて販売中

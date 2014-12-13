@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Xan - Open Design Games
-tw_description: 多人数協力型カードゲーム『Xan(ザン)』はこんなゲームです。
-tw_image_url: http://fullkawa.github.io/open-design-games/products/img/xan-product-image.png
+tw:
+  description: 多人数協力型カードゲーム『Xan(ザン)』はこんなゲームです。
+  image_url: http://fullkawa.github.io/open-design-games/products/img/water-walker-package.png
 ---
 
 ## 多人数協力型カードゲーム『Xan(ザン)』
