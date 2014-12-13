@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Water Walker - Open Design Games
+tw_description: 『Water Walker』は誰が一番長く水の上を歩けたかを競うゲームです。
+tw_image_url: http://fullkawa.github.io/open-design-games/products/img/water-walker-package.png
 ---
 
 ## オリジナルボードゲーム『Water Walker』
