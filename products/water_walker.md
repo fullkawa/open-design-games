@@ -7,7 +7,7 @@ title: Water Walker - Open Design Games
 
 『Water Walker』は誰が一番長く水の上を歩けたかを競うゲームです。
 
-!(img/water-walker-package.png "Water Walker パッケージ画像")
+![Water Walker パッケージ画像](img/water-walker-package.png "Water Walker パッケージ画像")
 
 ### 概要
 
@@ -18,7 +18,7 @@ title: Water Walker - Open Design Games
 プレイヤーの読みと記憶力がタメされるゲームでもあります。
 
 『Water Walker』はこんなゲーム！
-!(img/water-walker-plaing.png "WaterWalkerプレイイメージ")
+![WaterWalkerプレイイメージ](img/water-walker-plaing.png "WaterWalkerプレイイメージ")
 ① スタート地点まで舟を出す
 ② 水面をよく見極めて… (他プレイヤーが水面パネルを配置します)
 ③ ゴール地点の舟まで渡りきれば成功！

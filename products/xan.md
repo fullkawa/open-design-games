@@ -7,7 +7,7 @@ title: Xan - Open Design Games
 
 多人数協力型カードゲーム『Xan(ザン)』はこんなゲームです。
 
-!(img/xan-product-image.png "Xan製品版イメージ画像")
+![Xan製品版イメージ画像](img/xan-product-image.png "Xan製品版イメージ画像")
 
 ### 基本情報
 

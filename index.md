@@ -9,8 +9,8 @@ Open Design Gamesとは、アナログゲーム製作プロジェクトの名称
 
 ## これまでに製作したゲーム
 
-* [Xan](products/xan.md) ※完売
-* [Water Walker](products/water_walker.md)
+* [Xan](products/xan.html) ※完売
+* [Water Walker](products/water_walker.html)
 
 ## 書いた記事とか
 
