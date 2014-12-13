@@ -19,7 +19,7 @@ title: Water Walker - Open Design Games
 
 ### 『Water Walker』はこんなゲーム！
 
-![WaterWalkerプレイイメージ](img/water-walker-plaing.png "WaterWalkerプレイイメージ")
+![WaterWalkerプレイイメージ](img/water-walker-playing.png "WaterWalkerプレイイメージ")
 
 ① スタート地点まで舟を出す  
 ② 水面をよく見極めて… (他プレイヤーが水面パネルを配置します)  
@@ -27,7 +27,7 @@ title: Water Walker - Open Design Games
 ④ しかし、いつも上手く行くとは限らない…！  
 
 下記マニュアルにて、遊び方・詳細なルールを確認できます。  
-[WaterWalkerマニュアル](water_walker_manual.pdf)
+[WaterWalkerマニュアル](water_walker_manual.pdf)  
 
 ### 製品情報
 
@@ -35,5 +35,5 @@ title: Water Walker - Open Design Games
 * プレイ時間：プレイ人数× 6 分
 * 対象年齢：6 才以上
 
-ゲームデザイン：[fullkawa](https://twitter.com/fullkawa)
-イラスト、パネルデザイン：[謙治](https://twitter.com/im_kenji)
+ゲームデザイン：[fullkawa](https://twitter.com/fullkawa)  
+イラスト、パネルデザイン：[謙治](https://twitter.com/im_kenji)  
