@@ -1,4 +1,7 @@
-# Open Design Games
+---
+layout: default
+title: Open Design Games
+---
 
 ## Open Design Gamesとは？
 
