@@ -41,4 +41,4 @@ tw:
 前置きが長くなりました。それでは始めましょう。
 
 
-→ 1. [テストプレイ、あなたは何をテストする？](testplay_1_what_do_you_test.html)
+→ [1.テストプレイ、あなたは何をテストする？](testplay_1_what_do_you_test.html)

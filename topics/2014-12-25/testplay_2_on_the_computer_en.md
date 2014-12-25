@@ -107,6 +107,6 @@ oldMaidContext = {
 Although I have defined the game above, it is not efficient that everyone develops a testplaying program under its definition.  
 So I am developing a testplaying framework now.  
 
-→ 3. [aglab - Testplaying framework](testplay_3_framework_en.html)
+→ [3.aglab - Testplaying framework](testplay_3_framework_en.html)
 
 → [Go to top](board_game_design_advent_calendar_2014-12-25.html)
