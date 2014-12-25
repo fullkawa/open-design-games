@@ -46,7 +46,7 @@ tw:
 上記要件を実装し、ゲームデザイナー(もしくは、その協力者)が自作ゲーム独自部分の実装に専念できるようにすることがこのフレームワーク(プロジェクト)の目標です。
 
 開発は以下のリポジトリにて行っています。  
-[https://github.com/fullkawa/aglab](https://github.com/fullkawa/aglab)
+<a href="https://github.com/fullkawa/aglab" target="_blank">https://github.com/fullkawa/aglab</a>
 
 実行画面イメージ  
 ![aglab 実行画面イメージ](img/screen_aglab_1.png "aglab 実行画面イメージ")  

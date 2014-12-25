@@ -6,13 +6,13 @@ tw:
   image_url: 
 ---
 
-この記事は、[Board Game Design Advent Calendar 2014](http://www.adventar.org/calendars/447)の25日目として書かれました。
+この記事は、<a href="http://www.adventar.org/calendars/447" target="_blank">Board Game Design Advent Calendar 2014</a>の25日目として書かれました。
 
-皆さんこんにちは、Open Design Gamesの[fullkawa](https://twitter.com/fullkawa)です。これまで
-『[Xan](http://fullkawa.github.io/open-design-games/products/xan.html)』
-『[Water Walker](http://fullkawa.github.io/open-design-games/products/water_walker.html)』
+皆さんこんにちは、Open Design Gamesの<a href="https://twitter.com/fullkawa" target="_blank">fullkawa</a>です。これまで
+<a href="http://fullkawa.github.io/open-design-games/products/xan.html" target="_blank">『Xan』</a>
+<a href="http://fullkawa.github.io/open-design-games/products/water_walker.html" target="_blank">『Water Walker』</a>
 といったゲームをデザイン・頒布してきました。  
-そして、現在はゲームマーケット2015春に向けて『Grands-Tours(仮)』という自転車ロードレースをテーマにしたゲームを制作中です。
+現在はゲームマーケット2015春に向けて『Grands-Tours(仮)』という自転車ロードレースをテーマにしたゲームを制作中です。
 
 さて。まさかの大トリです…！(;ﾟДﾟ)  
 これだけ錚々たるメンバーが集まったアドベントカレンダーの最終日が自分でいいのか？という戸惑いはありますが、自分がこの企画を知ったときはここしか空いてなかったのですよ。そんなヘタレはさておき。  
@@ -30,7 +30,7 @@ tw:
 上記1のページは、ゲームデザインに興味を持つ方全般に向けて書いたものです。  
 一方、2, 3についてはプログラムに関する知識がないと理解が難しいかもしれません。  
 
-…とは言っても、ボドゲクラスタの中にはプログラミングスキルを持った方が相当数いらっしゃるように見受けられます。ある程度の人数には最後まで読んでもらえるはずです！(と自分に言い聞かせる)。
+…とは言っても、ボドゲクラスタの中にはプログラミングスキルを持った方が相当数いらっしゃるように見受けられます。ある程度の人数には最後まで読んでもらえるはずです！(と自分に言い聞かせる)
 
 ### 謝辞
 

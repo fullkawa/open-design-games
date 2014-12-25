@@ -10,7 +10,7 @@ tw:
 
 [(In English)](testplay_2_on_the_computer_en.html)
 
-ゲームデザイナーは、可能であれば何度もテストプレイを行いたいと考えています。しかし、プレイヤーはそうではありません。プレイヤーはあくまで“完成品”(未成熟なテスト版ではなく)を遊びたいのです。  
+ゲームデザイナーは、可能であれば何度もテストプレイを行いたいと考えています。しかし、プレイヤーはそうではありません。プレイヤーは、未成熟なテスト版ではなく、“完成品”を遊びたいのです。  
 では私たち(ゲームデザイナー)はどうしたらよいのでしょう？  
 私はプログラマなので、まず「コンピュータでテストすればいいじゃない」という案が浮上します。そうすれば、テストを10,000回実行することも可能なのですから！  
 
@@ -39,7 +39,7 @@ tw:
 
 例) "dealAllCards"という名称でルールを定義した場合
 
-```
+<pre>
 // ルール適用前の状態
 print context['deck'].length; // 16
 print context['player1']['hands'].length; // 0
@@ -49,7 +49,7 @@ next_context = dealAllCards(context);
 // ルール適用後の状態
 print context['deck'].length; // 0
 print context['player1']['hands'].length; // 4
-```
+</pre>
 
 この定義において、コンテキストは直前のコンテキストにのみ依存します。  
 これは、プログラムで並列処理を行うことが可能であることを意味します。  
@@ -60,14 +60,14 @@ print context['player1']['hands'].length; // 4
 
 例)『ババ抜き』のプレイヤーの場合
 
-```
+<pre>
 actions = [
   drawCard(prev_player['hand'][0]), // 前のプレイヤーの手札から1枚(左端)引く
   drawCard(prev_player['hand'][1]), // 前のプレイヤーの手札から1枚(左から2枚目)引く
   ...
 ];
 selected_action = player1(actions);
-```
+</pre>
 
 パラメータ等を変えることでプレイヤーごとに条件判断の順序・重み付け等を変えれば、個性も表現できそうです。
 
@@ -77,12 +77,12 @@ selected_action = player1(actions);
 
 例) トランプの定義
 
-```
+<pre>
 cards = [
   { "suit": "spade", "number": 1 },
   ...
 ];
-```
+</pre>
 
 **デッキ、手札、捨て札、ゲームボード上のあらゆるフィールド**
 
@@ -90,7 +90,7 @@ cards = [
 
 例)『ババ抜き』におけるフィールド
 
-```
+<pre>
 oldMaidContext = {
   'players': [
     'player1': {
@@ -100,7 +100,7 @@ oldMaidContext = {
   ],
   'trash': [] // 捨て札
 };
-```
+</pre>
 
 ### とはいえ…
 
