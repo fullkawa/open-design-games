@@ -76,7 +76,7 @@ Table 1. Number of panels in play by number of players
 
 ### 3.2. WHAT SHOULD I DO?
 
-The turn player will challenge to get more "Step" panels than other players with no "Dobom".
+The turn player will challenge to get more "Step" panels than other players with no "Dobom". "Dobom" means kersplash.
 
 Other players anticipate turn player's movement and set a trap("Dobom" panel).
 
