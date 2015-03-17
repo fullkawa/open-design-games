@@ -209,7 +209,7 @@ If the turn player can't move rhythmically, other player can doom him/her and sa
 ----
 
 If you have the questions, you can ask me via Twitter.  
-https://twitter.com/fullkawa
+[https://twitter.com/fullkawa](https://twitter.com/fullkawa)
 
 (c) 2014 Open Design Games
 

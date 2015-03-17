@@ -31,7 +31,6 @@ tw:
 
 下記マニュアルにて、遊び方・詳細なルールを確認できます。  
 [WaterWalkerマニュアル](water_walker_manual.pdf)  
-
 [Water Walker Player's Guide](water_walker_manual_en.html)  
 
 ### 製品情報
