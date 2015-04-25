@@ -22,7 +22,7 @@ tw:
 
 ### 『Water Walker』はこんなゲーム！
 
-![WaterWalkerプレイイメージ](img/water-walker-playing.png "WaterWalkerプレイイメージ")
+![WaterWalkerプレイイメージ](img/water-walker-playing.jpg "WaterWalkerプレイイメージ")
 
 ① スタート地点まで舟を出す  
 ② 水面をよく見極めて… (他プレイヤーが水面パネルを配置します)  
