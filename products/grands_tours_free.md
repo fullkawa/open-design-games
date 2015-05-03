@@ -28,7 +28,7 @@ tw:
 
 ### ダウンロード
 
-[Grands-Tours マニュアル(コンポーネントフリー版)](http://fullkawa.github.io/open-design-games/products/grands_tours_manual_free.pdf)
+[Grands-Tours マニュアル(コンポーネントフリー版)](http://fullkawa.github.io/open-design-games/products/grands_tours_manual_free2.pdf)
 
 [Grands-Tours コースレイアウトシート(コンポーネントフリー版)](http://fullkawa.github.io/open-design-games/products/gt_course_layouts_free.pdf)
 
