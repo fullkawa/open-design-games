@@ -18,6 +18,8 @@ Open Design Gamesとは、アナログゲーム製作プロジェクトの名称
 * [コンピュータプログラムによる自動テストプレイ](topics/2014-12-25/board_game_design_advent_calendar_2014-12-25.html)  
 ※この記事は、<a href="http://www.adventar.org/calendars/447" target="_blank">Board Game Design Advent Calendar 2014</a>の25日目として書かれました。
 
+* [Grands-Tours(グランツール)の戦略とか戦術とか](topics/grands-tours/playing.html)
+
 ## 素材
 
 * [English rules available](download/English_rules_available.png):ゲームマーケットカタログ原稿などにお使いください。
