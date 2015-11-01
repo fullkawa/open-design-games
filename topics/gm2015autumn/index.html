@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ゲームマーケット2015秋に出展されるサークルのゲームを似たもの同士グループ化(クラスタリング)してみた。">
+<title>ゲームマーケット2015秋 出展サークル/ゲーム - Open Design Games</title>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.js"></script>
+<style>
+  body {
+    padding:0em 1em 2em 1em;
+  }
+  .product-info {
+    display: inline-block;
+    margin-top: 0.5em;
+    margin-right: 3em;
+  }
+  .product-info img {
+    margin-right: 1em;
+  }
+  .gameinfo {
+    margin-left: 1em;
+  }
+  .gameinfo span {
+    margin-right: 0.5em;
+  }
+  .new {
+    font-weight: bold;
+  }
+</style>
+<script>
+var app = angular.module('app', []);
+app.controller('cl50', ['$scope', '$http',
+  function ($scope, $http) {
+  $http.get('game_50clustered.json').success(function(data) {
+    $scope.cl50 = data;
+  });
+}]);
+app.controller('cl150', ['$scope', '$http',
+  function ($scope, $http) {
+  $http.get('game_150clustered.json').success(function(data) {
+    $scope.cl150 = data;
+  });
+}]);
+app.controller('cl450', ['$scope', '$http',
+  function ($scope, $http) {
+  $http.get('game_450clustered.json').success(function(data) {
+    $scope.cl450 = data;
+  });
+}]);
+</script>
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@fullkawa" />
+<meta name="twitter:creator" value="@fullkawa" />
+<meta name="twitter:title" content="ゲームマーケット2015秋 出展サークル/ゲーム" />
+<meta name="twitter:description" content="ゲームマーケット2015秋に出展されるサークルのゲームを似たもの同士グループ化(クラスタリング)してみた。" />
+</head>
+<body ng-app="app">
+<div class="page-header">
+  <h1>ゲームマーケット2015秋 出展サークル/ゲーム</h1>
+</div>
+<p>
+　ゲームマーケット2015秋に出展されるサークルのゲームを似たもの同士グループ化(クラスタリング)してみました。<br/>
+　好きなジャンルのゲームを探すために、はたまたジャンルが被らないゲームを探すためにお使いください！
+</p>
+<div class="alert alert-warning" role="alert">
+  <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+  本ページの情報は、10/31 AM9:30時点でゲームマーケット公式サイトに投稿されていた情報を元にしています。
+</div>
+<div class="alert alert-info" role="info">
+  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+  今回、Open Design Gamesは出展の予定がありません。当サークルのゲームに興味がある方は下記リンク先をご覧ください。<br/>
+  <div class="product-info" style="margin-left: 2em;"><a href="http://j.mp/1GTj5wr" target="_blank"><img src="http://fullkawa.github.io/open-design-games/products/img/water-walker-package.png" widht="126" height="90">Water Walker 通販受付</a></div>
+  <div class="product-info"><a href="http://j.mp/1k0YRqv" target="_blank"><img src="http://fullkawa.github.io/open-design-games/products/img/grands-tours-playing.png" width="110" height="62">Grands-Tours(グランツール) 通販受付</a></div>
+</div>
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#50clustered-tab" data-toggle="tab">クラスタリング50</a></li>
+  <li role="presentation"><a href="#150clustered-tab" data-toggle="tab">クラスタリング150</a></li>
+  <li role="presentation"><a href="#450clustered-tab" data-toggle="tab">クラスタリング450</a></li>
+</ul>
+<div class="tab-content">
+<div id="50clustered-tab" class="tab-pane active" ng-controller="cl50">
+  <div class="page-header">
+    <h2>クラスタリング50</h2>
+  </div>
+  <div>
+    <span>※ <span class="new">太字</span>は新作, ゲームの詳細はリンク先をご覧ください。</span>
+    <span id="twitter" style="margin-left: 2em;">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="fullkawa">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </span>
+    <span id="hatena">
+      <a href="http://b.hatena.ne.jp/entry/http://fullkawa.github.io/open-design-games/index.html" class="hatena-bookmark-button" data-hatena-bookmark-title="Open Design Games" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    </span>
+  </div>
+  <div style="ng-cloak" ng-cloak ng-repeat="game in cl50">
+    <div ng-if="game.clusterTop">
+      <h3><a name="cluster50-{{ game.clusterNo + 1 }}">Cluster {{ game.clusterNo + 1 }}</a></h3>
+    </div>
+    <div class="gameinfo" ng-class="{'new': game.published=='2015秋'}">
+      <span>【{{ game.boothNo }}】{{ game.boothName }}</span>
+      <span><a href="{{ game.gameInfoUrl }}" target="_blank">『{{ game.gameTitle }}』</a></span>
+      <span>({{ game.published }} / {{ game.price }} / {{ game.numberOfPlayers }} / {{ game.playingTime }})</span>
+    </div>
+  </div>
+</div>
+<div id="150clustered-tab" class="tab-pane" ng-controller="cl150">
+  <div class="page-header">
+    <h2>クラスタリング150</h2>
+  </div>
+  <p>※ <span class="new">太字</span>は新作, ゲームの詳細はリンク先をご覧ください。</p>
+  <div style="ng-cloak" ng-cloak ng-repeat="game in cl150">
+    <div ng-if="game.clusterTop">
+      <h3><a name="cluster150-{{ game.clusterNo + 1 }}">Cluster {{ game.clusterNo + 1 }}</a></h3>
+    </div>
+    <div class="gameinfo" ng-class="{'new': game.published=='2015秋'}">
+      <span>【{{ game.boothNo }}】{{ game.boothName }}</span>
+      <span><a href="{{ game.gameInfoUrl }}" target="_blank">『{{ game.gameTitle }}』</a></span>
+      <span>({{ game.published }} / {{ game.price }} / {{ game.numberOfPlayers }} / {{ game.playingTime }})</span>
+    </div>
+  </div>
+</div>
+<div id="450clustered-tab" class="tab-pane" ng-controller="cl450">
+  <div class="page-header">
+    <h2>クラスタリング450</h2>
+  </div>
+  <p>※ <span class="new">太字</span>は新作, ゲームの詳細はリンク先をご覧ください。</p>
+  <div style="ng-cloak" ng-cloak ng-repeat="game in cl450">
+    <div ng-if="game.clusterTop">
+      <h3><a name="cluster450-{{ game.clusterNo + 1 }}">Cluster {{ game.clusterNo + 1 }}</a></h3>
+    </div>
+    <div class="gameinfo" ng-class="{'new': game.published=='2015秋'}">
+      <span>【{{ game.boothNo }}】{{ game.boothName }}</span>
+      <span><a href="{{ game.gameInfoUrl }}" target="_blank">『{{ game.gameTitle }}』</a></span>
+      <span>({{ game.published }} / {{ game.price }} / {{ game.numberOfPlayers }} / {{ game.playingTime }})</span>
+    </div>
+  </div>
+</div>
+</div>
+<hr />
+<div>
+  <a href="http://fullkawa.github.io/open-design-games/">TOPへ戻る</a>
+</div>
+<div id="footer">
+  (c) fullkawa / Open Design Games 2015
+</div>
+</body>
+</html>

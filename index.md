@@ -21,6 +21,8 @@ Open Design Gamesとは、アナログゲーム製作プロジェクトの名称
 * [Grands-Tours(グランツール)の戦略とか戦術とか](topics/grands-tours/playing.html)
 * [Grands-Tours(グランツール) デザイナーズノート](topics/grands-tours/designers-note.html)
 
+* [ゲームマーケット2015秋 出展サークル/ゲーム クラスタリング](topics/gm2015autumn/index.html)
+
 ## 素材
 
 * [English rules available](download/English_rules_available.png):ゲームマーケットカタログ原稿などにお使いください。
