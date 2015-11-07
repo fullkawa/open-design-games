@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ゲームマーケット2015秋に出展されるサークルのゲームを似たもの同士グループ化(クラスタリング)してみた。">
-<title>ゲームマーケット2015秋 出展サークル/ゲーム - Open Design Games</title>
+<meta name="description" content="ゲームマーケット2015秋に出展されるサークルのゲームを似たもの同士でまとめてみた(クラスタリング)。">
+<meta name="keywords" content="ゲームマーケット2015秋,まとめ,ボードゲーム,同人" />
+<title>ゲームマーケット2015秋 出展サークル/ゲーム まとめ - Open Design Games</title>
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -40,16 +41,16 @@ app.controller('cl50', ['$scope', '$http',
     $scope.cl50 = data;
   });
 }]);
+app.controller('cl100', ['$scope', '$http',
+  function ($scope, $http) {
+  $http.get('game_100clustered.json').success(function(data) {
+    $scope.cl100 = data;
+  });
+}]);
 app.controller('cl150', ['$scope', '$http',
   function ($scope, $http) {
   $http.get('game_150clustered.json').success(function(data) {
     $scope.cl150 = data;
-  });
-}]);
-app.controller('cl450', ['$scope', '$http',
-  function ($scope, $http) {
-  $http.get('game_450clustered.json').success(function(data) {
-    $scope.cl450 = data;
   });
 }]);
 </script>
@@ -57,15 +58,15 @@ app.controller('cl450', ['$scope', '$http',
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@fullkawa" />
 <meta name="twitter:creator" value="@fullkawa" />
-<meta name="twitter:title" content="ゲームマーケット2015秋 出展サークル/ゲーム" />
-<meta name="twitter:description" content="ゲームマーケット2015秋に出展されるサークルのゲームを似たもの同士グループ化(クラスタリング)してみた。" />
+<meta name="twitter:title" content="ゲームマーケット2015秋 出展サークル/ゲーム まとめ" />
+<meta name="twitter:description" content="ゲームマーケット2015秋に出展されるサークルのゲームを似たもの同士でまとめてみた(クラスタリング)。" />
 </head>
 <body ng-app="app">
 <div class="page-header">
-  <h1>ゲームマーケット2015秋 出展サークル/ゲーム</h1>
+  <h1>ゲームマーケット2015秋 出展サークル/ゲーム まとめ</h1>
 </div>
 <p>
-　ゲームマーケット2015秋に出展されるサークルのゲームを似たもの同士グループ化(クラスタリング)してみました。<br/>
+　ゲームマーケット2015秋に出展されるサークルのゲームを似たもの同士でまとめてみました(クラスタリング)。<br/>
 　好きなジャンルのゲームを探すために、はたまたジャンルが被らないゲームを探すためにお使いください！
 </p>
 <div class="alert alert-warning" role="alert">
@@ -80,8 +81,8 @@ app.controller('cl450', ['$scope', '$http',
 </div>
 <ul class="nav nav-tabs">
   <li role="presentation" class="active"><a href="#50clustered-tab" data-toggle="tab">クラスタリング50</a></li>
+  <li role="presentation"><a href="#100clustered-tab" data-toggle="tab">クラスタリング100</a></li>
   <li role="presentation"><a href="#150clustered-tab" data-toggle="tab">クラスタリング150</a></li>
-  <li role="presentation"><a href="#450clustered-tab" data-toggle="tab">クラスタリング450</a></li>
 </ul>
 <div class="tab-content">
 <div id="50clustered-tab" class="tab-pane active" ng-controller="cl50">
@@ -109,14 +110,14 @@ app.controller('cl450', ['$scope', '$http',
     </div>
   </div>
 </div>
-<div id="150clustered-tab" class="tab-pane" ng-controller="cl150">
+<div id="100clustered-tab" class="tab-pane" ng-controller="cl100">
   <div class="page-header">
-    <h2>クラスタリング150</h2>
+    <h2>クラスタリング100</h2>
   </div>
   <p>※ <span class="new">太字</span>は新作, ゲームの詳細はリンク先をご覧ください。</p>
-  <div style="ng-cloak" ng-cloak ng-repeat="game in cl150">
+  <div style="ng-cloak" ng-cloak ng-repeat="game in cl100">
     <div ng-if="game.clusterTop">
-      <h3><a name="cluster150-{{ game.clusterNo + 1 }}">Cluster {{ game.clusterNo + 1 }}</a></h3>
+      <h3><a name="cluster100-{{ game.clusterNo + 1 }}">Cluster {{ game.clusterNo + 1 }}</a></h3>
     </div>
     <div class="gameinfo" ng-class="{'new': game.published=='2015秋'}">
       <span>【{{ game.boothNo }}】{{ game.boothName }}</span>
@@ -125,14 +126,14 @@ app.controller('cl450', ['$scope', '$http',
     </div>
   </div>
 </div>
-<div id="450clustered-tab" class="tab-pane" ng-controller="cl450">
+<div id="150clustered-tab" class="tab-pane" ng-controller="cl150">
   <div class="page-header">
-    <h2>クラスタリング450</h2>
+    <h2>クラスタリング150</h2>
   </div>
   <p>※ <span class="new">太字</span>は新作, ゲームの詳細はリンク先をご覧ください。</p>
-  <div style="ng-cloak" ng-cloak ng-repeat="game in cl450">
+  <div style="ng-cloak" ng-cloak ng-repeat="game in cl150">
     <div ng-if="game.clusterTop">
-      <h3><a name="cluster450-{{ game.clusterNo + 1 }}">Cluster {{ game.clusterNo + 1 }}</a></h3>
+      <h3><a name="cluster150-{{ game.clusterNo + 1 }}">Cluster {{ game.clusterNo + 1 }}</a></h3>
     </div>
     <div class="gameinfo" ng-class="{'new': game.published=='2015秋'}">
       <span>【{{ game.boothNo }}】{{ game.boothName }}</span>
