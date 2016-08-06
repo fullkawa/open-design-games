@@ -6,7 +6,7 @@ tw:
   image_url: http://fullkawa.github.io/open-design-games/products/img/dice_road_race/postcard.jpg
 ---
 
-## オリジナルボードゲーム『The Dice Road Race(ダイスロードレース)』
+## 『The Dice Road Race(ダイスロードレース)』
 
 ![ダイスロードレース ポストカード版](img/dice_road_race/postcard.jpg "ダイスロードレース ポストカード版")
 
