@@ -13,6 +13,7 @@ Open Design Gamesとは、アナログゲーム製作プロジェクトの名称
 * [Water Walker](products/water_walker.html) 2014年春
 * [Grands-Tours(グランツール)](products/grands_tours.html) 2015年春
 * [The Dice Road Race(ダイスロードレース)](products/dice_road_race.html) 2016年
+    * [The Dice Road Race(ダイスロードレース) ステージレースルール](products/dice_road_race_stage.html)
 
 ## 書いた記事とか
 
