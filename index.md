@@ -22,6 +22,7 @@ Open Design Gamesとは、アナログゲーム製作プロジェクトの名称
 
 * [Grands-Tours(グランツール)の戦略とか戦術とか](topics/grands-tours/playing.html)
 * [Grands-Tours(グランツール) デザイナーズノート](topics/grands-tours/designers-note.html)
+* [ダイスロードレースのバランス調整について](topics/dice-road-race/design.html)
 
 * [ゲームマーケット2015秋 出展サークル/ゲーム クラスタリング](topics/gm2015autumn/index.html)
 
